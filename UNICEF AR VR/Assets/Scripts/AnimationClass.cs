@@ -87,7 +87,7 @@ public class AnimationClass {
 					var values = line.Split(',');
 					//Debug.Log (values);
 
-					if(info.IndexOf(values[1] == -1)){//unique
+					if(info.IndexOf(values[1])  == -1){//unique
 						info.Add (values [1]);//these are the symptoms... will add a lil description later
 						animations.Add(new AnimationGroup ("@prob_1")); //will change later on
 
